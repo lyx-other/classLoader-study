@@ -2,6 +2,9 @@ package com.lyx;
 
 import cn.hutool.core.io.FileUtil;
 
+/**
+ * 只加载一个类
+ */
 public class MyClassLoader extends ClassLoader
 {
     /**

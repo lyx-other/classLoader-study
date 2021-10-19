@@ -6,6 +6,9 @@ import cn.hutool.http.HttpUtil;
 
 import java.io.File;
 
+/**
+ * 通过网络加载类
+ */
 public class MyURLClassLoader extends ClassLoader
 {
     /**

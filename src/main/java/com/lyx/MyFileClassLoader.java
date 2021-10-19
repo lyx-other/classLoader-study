@@ -6,6 +6,7 @@ import cn.hutool.core.util.StrUtil;
 import java.io.File;
 
 /**
+ * 加载磁盘上的文件.
  * 第①步：继承ClassLoader
  * 第②步：重写findClass()方法
  */
