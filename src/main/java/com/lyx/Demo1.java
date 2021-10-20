@@ -31,7 +31,7 @@ public class Demo1
         // 调用父类的loadClass()方法加载类
         // 有双新委派机制
         Class<?> class1 = fileClassLoader1.loadClass("com.a1.Test1");
-        Class<?> class2 = fileClassLoader2.loadClass("com.a1.Test1");
+        Class<?> class2 = fileClassLoader2.loadClass("com.a1.Test1"); // 父加载器已经加载这个类了，直接返回父加载器加载的.
 
         // 打印出来的hash码是一样的
         Console.log("打印数据1：{}", class1.hashCode());
